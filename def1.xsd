@@ -1,0 +1,12 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Root">
+    <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element type="xsd:double" name="dt"/>
+      <xsd:element type="xsd:double" name="t"/>
+      <xsd:element type="xsd:double" name="x"/>
+      <xsd:element type="xsd:double" name="v"/>
+    </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
